@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Set Page Color Popup</title>
+    <meta charset="UTF-8">
+    
+    <style>
+    body {
+      overflow: hidden;
+/*      margin: 1px;
+      padding: 0px;*/
+      background: white;
+    }
+
+/*    div:first-child {
+      margin-top: 0px;
+    }*/
+
+/*
+    div {
+
+      padding: 1px 3px;
+      font-size: 0.8em;
+      width: 100px;
+      height: 100px;
+
+      background: #cccccc;
+    }
+    div:hover {
+      background: #ffffff;
+    }*/
+
+
+    .textbox{
+      text-align: center;      
+      border: 1px solid #000000;
+      background: #ffffff;
+      -webkit-transition: background-color 0.1s ease-in, color 0.1s ease-in;
+      width: 200px;
+      height: 30px;
+      line-height: 30px;
+    }
+    .textbox:hover{
+      border: 1px solid #000000;
+      background: #000000;
+      color: #ffffff;
+    }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="audio1" class="textbox"><audio id="audio1v" src="omatase.wav" type="audio/wav"></audio>おまたせ</div>
+    <div id="audio2" class="textbox"><audio id="audio2v" src="oon.wav" type="audio/wav"></audio>返事1</div>
+    <div id="audio3" class="textbox"><audio id="audio3v" src="tukareta.wav" type="audio/wav"></audio>疲れた</div>
+    <div id="audio4" class="textbox"><audio id="audio4v" src="iku.wav" type="audio/wav"></audio>いく</div>
+    <div id="audio5" class="textbox"><audio id="audio5v" src="kora.wav" type="audio/wav"></audio>こら</div>
+    <div id="audio6" class="textbox"><audio id="audio6v" src="yarimasune.wav" type="audio/wav"></audio>やりますねえ</div>
+  </body>
+</html>
